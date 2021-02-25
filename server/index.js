@@ -6,6 +6,8 @@ const PORT = 5006;
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+app.use('/rooms/:id', express.static(__dirname + '/../client/dist'));
+app.use('/rooms/:id', express.static(__dirname + '/../public'));
 
 app.get('/rooms/:id/title', async (req, res) => {
   try {

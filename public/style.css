@@ -1,0 +1,66 @@
+.title-main {
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+  font-family: 'Helvetica Neue';
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+.title-header {
+  margin: 2px;
+  width: 50%;
+  font-size: .4rem;
+  font-weight: 600;
+}
+
+.title-detail-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-detail {
+  font-size: .5rem;
+  display: flex;
+}
+
+.title-detail a {
+  color: rgb(113, 113, 113);
+}
+
+.title-detail-score {
+  margin: 2px;
+}
+
+.title-detail-location {
+  margin: 2px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: right;
+  font-size: .5rem;
+}
+
+.social-media a {
+  color: rgb(34, 34, 34);
+}
+
+.social-media-button {
+  padding: 2px;
+  border: 0;
+  font-size: .5rem;
+  outline: none;
+}
+
+.social-media-button:hover {
+  cursor: pointer;
+}
+
+.social-media-button-label {
+  font-size: .5rem;
+  text-decoration: underline;
+  padding: 5px;
+  color: rgb(34, 34, 34);
+}
+
