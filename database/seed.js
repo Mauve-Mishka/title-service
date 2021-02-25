@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const { TitleSchema } = require('./Schema.js');
+const { TitleSchema } = require('./schema.js');
 const { config } = require('../config.js');
 const faker = require('faker');
 
