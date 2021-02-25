@@ -3,7 +3,8 @@
   font-family: 'Helvetica Neue';
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: auto;
+  max-width: 600px;
   margin: auto;
 }
 
